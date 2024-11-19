@@ -1,10 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./views/Home";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-blue-500">
-      <h1>Hello World</h1>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
