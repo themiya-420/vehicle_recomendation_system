@@ -23,7 +23,7 @@ const Hero = () => {
                 className="w-full p-3 rounded-full rounded-r-none border-2 border-gray-300 placeholder-current dark:bg-gray-500  dark:text-gray-300 dark:border-none "
                 placeholder="Enter Price, Model"
               />
-              <button className="inline-flex items-center gap-2 bg-blue-600 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
+              <button className="inline-flex items-center gap-2 bg-blue-500 text-white text-lg font-semibold py-3 px-6 rounded-r-full">
                 <span>Find</span>
               </button>
             </div>
