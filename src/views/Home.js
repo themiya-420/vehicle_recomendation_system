@@ -39,8 +39,8 @@ const Home = () => {
         className=" pattern-dots pattern-blue-500 pattern-bg-white 
         pattern-size-6 pattern-opacity-100"
       >
-        <div className="z-0 bg-white bg-opacity-80">
-          <Navbar />
+        <Navbar />
+        <div className="z-0 py-10 bg-white bg-opacity-80">
           <Hero />
           <div className="w-screen ">
             <div className="flex flex-row justify-center">

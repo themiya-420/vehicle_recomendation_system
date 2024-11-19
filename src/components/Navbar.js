@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="nav bg-blue-400 h-16 flex flex-row items-center justify-between p-4">
+      <div className="nav fixed w-screen bg-blue-400 h-16 flex flex-row items-center justify-between p-4">
         <div className="flex flex-row gap-4 text-white items-center">
           <a className="text-2xl font-bold">VehiRec. </a>
           <a href="#" class="relative  group">
