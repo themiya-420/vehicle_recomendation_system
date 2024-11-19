@@ -36,13 +36,13 @@ const Home = () => {
   return (
     <>
       <div
-        className="pattern-dots pattern-blue-500 pattern-bg-white 
+        className=" pattern-dots pattern-blue-500 pattern-bg-white 
         pattern-size-6 pattern-opacity-100"
       >
         <div className="z-0 bg-white bg-opacity-80">
           <Navbar />
           <Hero />
-          <div className="w-screen">
+          <div className="w-screen ">
             <div className="flex flex-row justify-center">
               <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-10 text-blue-400">
                 Recommendations.

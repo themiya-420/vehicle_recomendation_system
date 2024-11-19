@@ -2,7 +2,7 @@ import React from "react";
 
 const RecommendationList = ({ recommendations }) => {
   return (
-    <div className="max-w-3xl mt-10 mx-auto p-4 bg-white shadow-lg rounded-lg">
+    <div className="max-w-3xl mb-20 xl:max-w-6xl mt-10 mx-auto p-4 bg-white shadow-lg rounded-lg">
       <div className="h-96 overflow-y-auto space-y-4">
         {recommendations.map((item, index) => (
           <div
